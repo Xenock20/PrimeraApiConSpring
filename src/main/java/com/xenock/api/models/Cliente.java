@@ -6,6 +6,17 @@ public class Cliente {
     private String name;
     private String surname;
 
+    public Cliente() {
+    }
+
+    public Cliente(long id, String name, String surname) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+    }
+
+    
+    
     public long getId() {
         return id;
     }
